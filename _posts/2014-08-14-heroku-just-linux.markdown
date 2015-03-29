@@ -25,6 +25,8 @@ Release:  10.04
  20:50:25 up 35 days, 23:48,  0 users,  load average: 13.64, 9.56, 8.78
 ```
 
+![Unix](/assets/unix.jpg)
+
 Why does it matter?  Because sometimes programming languages are slow (Ruby). Sometimes what you need to do has already been written in C and left behind on standard Linux distrutions waiting for you to use them.
 
 For example, say we wanted to take a rather large CSV, sort it by the 2nd then 1st columns and return the first row.
