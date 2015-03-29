@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Heroku's just Linux, Sometimes"
+title: "Heroku's just Linux... Sometimes"
 date: 2014-08-14 21:19
 comments: true
 categories:
