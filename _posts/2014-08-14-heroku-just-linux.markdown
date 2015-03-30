@@ -57,6 +57,7 @@ class HerokuTest < Sinatra::Base
   get("/linux_sort") do
     mem_start = mem_usage
     time = Benchmark.measure do
+      # Splitting on commas isn't proper CSV parsing but it works for our purposes here
       system("sort -g --field-separator=',' --key=2,1 fielding.csv > sorted.csv")
     end.real
     File.open("sorted.csv") do |f|
