@@ -1,0 +1,31 @@
+languageCode = "en-us"
+title = "E.J. Finneran"
+baseurl = "http://finneran.us"
+theme = "aerial"
+
+[params]
+  name = "E.J. Finneran"
+  about = "Sofware at Rigado"
+  #Disable the scrolling background by entering any string for bg_scroll. Enable by leaving bg_scroll empty.
+  bg_scroll = "none"
+  favicon = "favicon.ico"
+
+[[params.social]]
+  medium = "Twitter"
+  icon = "twitter"
+  link = "https://twitter.com/ejfinneran"
+
+[[params.social]]
+  medium = "Facebook"
+  icon = "facebook"
+  link = "https://facebook.com/ejfinneran"
+
+[[params.social]]
+  medium = "Github"
+  icon = "github"
+  link = "https://github.com/ejfinneran"
+
+[[params.social]]
+  medium = "GPG"
+  icon = "key"
+  link = "https://keybase.io/ejfinneran"
